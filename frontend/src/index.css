@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans Condensed', sans-serif
+}
+
+textarea {
+    font-family: inherit;
+}
+
+input {
+    font-family: inherit;
+}
+.itemList {
+    display: 'flex';
+}
+#ItemPage {
+    margin: 2vh 5vw;
+}
+
+@keyframes popIn {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.myModal {
+    animation: popIn 0.225s ease-in-out;
+}
+
+.visited:visited {
+    color: grey;
+}
